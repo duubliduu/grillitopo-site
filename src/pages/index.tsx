@@ -29,7 +29,7 @@ const channels = [
 export default function Home() {
   return (
     <main className="w-full h-full relative">
-      <video className="w-full h-full object-cover" autoPlay loop muted>
+      <video className="w-full h-full object-cover" muted autoPlay playsInline loop>
         <source src="https://grillitopo.com/grillitopo-site.mp4" type="video/mp4" />
       </video>
       <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center bg-gray-900/[0.7]">
