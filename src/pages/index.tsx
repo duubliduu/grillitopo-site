@@ -1,5 +1,5 @@
 import Image from "next/image";
-import {IconBrandInstagram, IconBrandTiktok, IconBrandTwitch, IconBrandYoutube} from "@tabler/icons-react";
+import { IconBrandInstagram, IconBrandTiktok, IconBrandTwitch, IconBrandYoutube } from "@tabler/icons-react";
 
 
 const channels = [
@@ -30,7 +30,7 @@ export default function Home() {
   return (
     <main className="w-full h-full relative">
       <video className="w-full h-full object-cover" muted autoPlay playsInline loop>
-        <source src="https://grillitopo.com/grillitopo-site.mp4" type="video/mp4" />
+        <source src="https://www.duubliduu.com/grillitopo-site.mp4" type="video/mp4" />
       </video>
       <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center bg-gray-900/[0.7]">
         <Image
@@ -46,10 +46,10 @@ export default function Home() {
               key={channel.name}
               href={channel.url}
               target="_blank"
-              >
+            >
               <channel.Icon size={64} />
             </a>
-            ))}
+          ))}
         </div>
       </div>
     </main>
