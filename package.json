@@ -10,6 +10,7 @@
     "export": "next export"
   },
   "dependencies": {
+    "@sendgrid/mail": "^8.1.0",
     "@tabler/icons-react": "^2.8.0",
     "@types/node": "18.14.6",
     "@types/react": "18.0.28",
